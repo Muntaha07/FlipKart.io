@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@700&family=Balsamiq+Sans&family=Fira+Sans+Extra+Condensed&family=Fira+Sans:ital,wght@1,300&family=Inter:wght@300&family=Kanit:wght@100;200&family=Lato:wght@700&family=Poppins:wght@100;200;400;600;700&family=Roboto:ital,wght@1,300&family=Source+Code+Pro:ital,wght@0,300;1,200&family=Ubuntu:ital@1&display=swap');
+
+
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn0{
+    position: absolute;
+    color: blue;
+    height: 23px;
+    width: 43px;
+    right: 475px;
+    background-color: white;
+    border: 1px;
+  cursor: pointer;
+}
+.my-1{
+margin: 20px 0px;
+font-family:'Lato', sans-serif ;
+
+}
+.my-2{
+margin: 5px 0px;
+font-family:'Lato', sans-serif ;
+
+}
+.text-center{
+  text-align: center;
+}

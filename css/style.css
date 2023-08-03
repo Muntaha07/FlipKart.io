@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@700&family=Balsamiq+Sans&family=Fira+Sans+Extra+Condensed&family=Fira+Sans:ital,wght@1,300&family=Inter:wght@300&family=Kanit:wght@100;200&family=Lato:wght@700&family=Poppins:wght@100;200;400;600;700&family=Roboto:ital,wght@1,300&family=Source+Code+Pro:ital,wght@0,300;1,200&family=Ubuntu:ital@1&display=swap');
+
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+--main-bg-color :#2874f0;
+}
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+    
+}
+
+nav{
+    
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width: 125px;
+    padding: 0px 25px;
+
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: lightblue;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+nav ul{
+    height: 12vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.search{
+    display: flex;
+    align-items: center; 
+    margin: 0px 75px;
+}
+ .search input{
+    width: 24vw;
+    height: 20px;
+    padding: 3px 5px;
+}
+::placeholder{
+    font-style: italic;
+}
+
+.btn1{
+    background-color:var(--main-bg-color);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    
+  }
+ .container{
+    min-height: calc(100vh - 12vh - 12vh);
+ }
+ 
+ .slider{
+    margin-top: 2px;
+    /* width: 80vw; */
+    overflow: hidden;
+ }
+
+ .card{
+    
+    max-width: 90vw;
+    margin: auto;
+    font-family:'Ubuntu', sans-serif;
+
+ }
+ .card-item{
+    display: inline-flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin: 0px 1px;
+
+ }
+ .card h2{
+    font-family:'Lato', sans-serif ;
+ }
+ .card p{
+    font-family:'Ubuntu', sans-serif;
+
+
+ }
+
+footer{
+    height: 12vh;
+    background-color:var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}

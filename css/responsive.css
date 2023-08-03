@@ -1,0 +1,52 @@
+@media screen and (max-width:1000px) {
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin: 12px 0px;
+    }
+    nav ul{
+        justify-content: center;
+        height: 34px;
+    }
+    nav ul li a{
+        font-size: 10px;
+    }
+    .search{
+        justify-content: center;
+    }
+    .search input{
+        margin: 12px 16px;
+        width: 80vh;
+    }
+    ::placeholder{
+        font-size: 7px;
+        font-weight: 900;
+        font-style: italic;
+    }
+    .btn0{
+        position: absolute;
+        left: 260px;
+        top: 115px;
+        height: 10px;
+        width: 10px;
+        background-color: white;
+        border: 1px;
+      cursor: pointer;
+    }
+    .btn1{
+        padding: 0;
+        margin: 0;
+    }
+    .slider{
+        height: 40vh;
+    }
+    .slider img{
+        width: 56vh;
+        height: 39vh;
+    }
+    .card{
+        max-width: 79vw;
+    }
+}
